@@ -24,3 +24,9 @@ numeroDecimal += numeroUno
 #Potencia 
 potencia = 2**2
 print(potencia)
+
+# Texto
+texto = "Hola me llamo Aitor y esto es un texto"
+print(texto)
+texto2 = 'Hola asi se "Pueeen" usar comillas dobles'
+print(texto2)
