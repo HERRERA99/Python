@@ -18,4 +18,9 @@ numeroDecimal = 1.1
 print("Numero Decimal:")    
 print(numeroDecimal)    
 
+print(numeroDecimal != numeroUno)
+numeroDecimal += numeroUno
 
+#Potencia 
+potencia = 2**2
+print(potencia)
