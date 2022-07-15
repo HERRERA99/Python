@@ -76,4 +76,36 @@ while(not(letraEncontrada)):
 
 
 
+############################
+#########  Parte 2 #########
+############################
 
+# Break para salir de un bucle
+# Continue para pasar a la sig iteración
+# Pass no hace nada, solo sirve para si quieres hacer una función vacia para estructurar codigo
+
+# Se le puede poner un else al for, y se leeria cuando el for halla acabado, y si hay un break 
+# que te saca del bucle, el else no se ejecuta
+
+# Ejemplo 2
+from random import randint
+from re import L
+
+
+solucion = randint(0,10)
+acabar = False
+while(not(acabar)):
+    respuesta = input("Introduzca un numero a adivinar entre el 0-10: ")
+    if(respuesta.isnumeric()):
+        respuesta = int(respuesta)
+    else:
+        print("Error, no es un número")
+        break
+
+    if(respuesta == solucion):
+        acabar = True
+        print("Enhorabuena¡¡¡!!!")
+    elif(respuesta < solucion):
+        print("La solución es mayor")
+    elif(respuesta > solucion):
+        print("La solución es menor") 
